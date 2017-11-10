@@ -45,3 +45,36 @@ Topics:
       - Name: Create and Run Job Templates
         File: 1-create_run_job_templates
 
+Name: CloudForms Modules
+Dir: cloudforms/modules
+Distros: cloudforms-modules
+Topics:
+  - Name: Overview
+    Dir: overview
+    Topics:
+      - Name: Exercise-1.0
+        File: exercise1.0
+      - Name: Exercise-1.1
+        File: exercise1.1
+  - Name: Manage IT Automation
+    Dir: manage_it_automation
+    Topics:
+      - Name: Ansible Tower Provider
+        File: ansible_tower_provider
+---
+Name: CloudForms Tower Workshop
+Dir: workshops/cloudforms_tower
+Distros: cloudforms-tower-workshop
+Topics:
+  - Name: Agenda
+    File: index
+
+---
+Name: Additional Resources
+Dir: workshops/resources
+Distros: cloudforms-tower-workshop
+Topics:
+  - Name: Links
+    File: links
+  - Name: Decks
+    File: decks
