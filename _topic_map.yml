@@ -23,7 +23,7 @@
 ---
 Name: Getting Started
 Dir: workshops
-Distros: cloudforms-tower-workshop
+Distros: cloudforms-*
 Topics:
   - Name: Welcome
     File: index
