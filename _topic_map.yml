@@ -22,7 +22,7 @@
 # topic groups and topics on the main page.
 ---
 Name: Getting Started
-Dir: workshops/welcome
+Dir: workshops
 #Distros: *workshop*
 Topics:
   - Name: Welcome
