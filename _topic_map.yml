@@ -22,8 +22,8 @@
 # topic groups and topics on the main page.
 ---
 Name: Getting Started
-Dir: workshops
-Distros: *-workshop
+Dir: workshops/welcome
+Distros: cloudforms-tower-workshop
 Topics:
   - Name: Welcome
     File: index
