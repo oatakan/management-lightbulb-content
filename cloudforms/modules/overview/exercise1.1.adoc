@@ -1,0 +1,129 @@
+[[whats-an-infrastructure-provider]]
+What’s An Infrastructure Provider?
+----------------------------------
+
+In Red Hat CloudForms, an infrastructure provider is a virtual
+infrastructure environment that you can add to a Red Hat CloudForms
+appliance to manage and interact with the resources in that environment.
+
+In other words, a infrastructure provider is a management platform for
+managing virtual machines from a single type of hypervisor.
+Infrastructure providers supported by CloudForms are Red Hat Enterprise
+Virtualization Management (RHEV-M), VMware vCenter and Microsoft System
+Center Virtual Machine Manager (SCVMM).
+
+[[explore-infrastructure-providers]]
+Explore Infrastructure Providers
+--------------------------------
+
+__________________________________________________
+Select *Compute* → *Infrastructure* → *Providers*.
+__________________________________________________
+
+ _Infrastructure Providers_
+
+A list of your datacenter infrastructure providers appears, such as
+VMware vCenter and Red Hat Enterprise Virtualization.
+
+[[discover-infrastructure-providers]]
+Discover Infrastructure Providers
+---------------------------------
+
+In very large environments, you can discover new infrastructure
+providers.
+
+_________________________________________________
+Click (*Configuration*), then click (*Discover*).
+_________________________________________________
+
+ _Discover Infrastructure Providers_
+
+\{\{% alert warning %}} Review the data entry screen, but do not enter
+any information. \{\{% /alert %}}
+
+________________________________________________
+Click *Cancel* to return to the previous screen.
+________________________________________________
+
+ _Cancel Discover Infrastructure Providers_
+
+[[add-infrastructure-providers]]
+Add Infrastructure Providers
+----------------------------
+
+You can also add infrastructure providers, if known.
+
+____________________________________________
+Click (*Configuration*), then click (*Add*).
+____________________________________________
+
+ _Add Infrastructure Providers_
+
+Review the data entry screen, but do not enter any information.
+
+________________________________________________
+Click *Cancel* to return to the previous screen.
+________________________________________________
+
+ _Cancel Add Infrastructure Providers_
+
+[[explore-the-virtual-thumbnail-for-infrastructure-providers]]
+Explore the Virtual Thumbnail for Infrastructure Providers
+----------------------------------------------------------
+
+The web interface uses virtual thumbnails to represent providers. Each
+thumbnail contains four quadrants by default, which display basic
+information about each provider.
+
+ _Example Virtual Thumbnail_
+
+1.  Number of hosts
+2.  Management system software
+3.  Currently unused
+4.  Authentication status
+
+In the Virtual Thumbnail below, note the . This demo is disconnected
+from the providers, so if you ever encounter the exclamation point, it
+indicates the status as not connected.
+
+ _Disconnected Virtual Thumbnail_
+
+When connected to providers, such as in a actual deployment, the is
+replaced with a .
+
+A (*Policy*) in the center of the virtual thumbnail indicates that this
+provider has one or more policies applied. There are no policies
+configured in this exercise, so the shield does not appear.
+
+________________________________________________________________________________________________
+In the top right corner of the window, click to toggle between *Grid*,
+*Tile*, and *List* views.
+________________________________________________________________________________________________
+
+ _Top Window Navigation Infrastructure Providers_
+
+_______________________________________________________________________
+Click (*Download*) for a list of providers in TXT, CSV, or PDF formats.
+_______________________________________________________________________
+
+ _Download Infrastructure Providers_
+
+____________________________________________________________________________________________
+Click any infrastructure provider and observe the following details on
+the resulting screen:
+____________________________________________________________________________________________
+
+ _Infrastructure Providers Dashboard_
+
+1.  The *Properties* section lists the aggregate host resources for the
+provider.
+2.  CloudForms can communicate with the provider in the *Authentication
+Status* section.
+3.  The *Relationships* section lists related clusters, hosts,
+datastores, VMs, and templates for this provider.
+
+* Click these relationships to see the type of information CloudForms
+gathers from a provider.
+
+1.  The *Smart Management* section shows if this provider has any smart
+tags applied. You learn more about smart tagging later in the lab.
