@@ -41,5 +41,7 @@ Topics:
         File: 2-configure_tower
   - Name: Job Templates
     Dir: job_templates
-    File: 1-create_run_job_templates
+    Topics:
+      - Name: Create and Run Job Templates
+        File: 1-create_run_job_templates
 
