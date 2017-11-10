@@ -8,7 +8,7 @@ cloudforms-modules:
   branches:
     master:
       name: latest
-      dir: cloudforms-modules/latest
+      dir: latest
 
 ansible-tower-modules:
   name: Ansible Tower hands-on modules
@@ -19,7 +19,7 @@ ansible-tower-modules:
   branches:
     master:
       name: latest
-      dir: ansible-tower-modules/latest
+      dir: latest
 
 cloudforms-tower-workshop:
   name: IT Automation and Governance with Ansible Tower and CloudForms
@@ -30,7 +30,7 @@ cloudforms-tower-workshop:
   branches:
     master:
       name: latest
-      dir: cloudforms-tower/latest
+      dir: latest
 
 ansible-tower-workshop:
   name: Ansible Tower Workshop
@@ -41,4 +41,4 @@ ansible-tower-workshop:
   branches:
     master:
       name: latest
-      dir: ansible-tower/latest
+      dir: latest
