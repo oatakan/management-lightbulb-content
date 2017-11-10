@@ -23,7 +23,7 @@
 ---
 Name: Getting Started
 Dir: workshops/welcome
-Distros: *workshop*
+#Distros: *workshop*
 Topics:
   - Name: Welcome
     File: index
