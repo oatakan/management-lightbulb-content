@@ -67,7 +67,7 @@ Dir: workshops/cloudforms_tower
 Distros: cloudforms-tower-workshop
 Topics:
   - Name: Agenda
-    File: index
+    File: _index
 
 ---
 Name: Additional Resources
