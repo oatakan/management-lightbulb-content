@@ -43,7 +43,7 @@ Topics:
 ---
 Name: Ansible Tower Exercises
 Dir: ansible_tower_modules
-Distros: ansible-tower-modules,ansible-tower-workshop
+Distros: ansible-tower-modules,ansible-tower-workshop,cloudforms-tower-workshop
 Topics:
   - Name: 1 - Installation
     Dir: 1-installation
@@ -66,7 +66,6 @@ Distros: cloudforms-modules,cloudforms-tower-workshop
 Topics:
   - Name: 1 - Overview
     Dir: 1-overview
-    Distros: cloudforms-tower-workshop
     Topics:
       - Name: Exercise-1.0
         File: exercise1.0
@@ -74,7 +73,6 @@ Topics:
         File: exercise1.1
   - Name: 2 - Manage IT Automation
     Dir: 2-manage_it_automation
-    Distros: cloudforms-tower-workshop
     Topics:
       - Name: Ansible Tower Provider
         File: ansible_tower_provider
