@@ -41,7 +41,7 @@ Topics:
 ---
 Name: CloudForms Modules
 Dir: cloudforms_modules
-Distros: cloudforms-modules
+Distros: cloudforms-modules,cloudforms-tower-workshop
 Topics:
   - Name: Overview
     Dir: overview
