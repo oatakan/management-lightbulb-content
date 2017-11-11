@@ -21,15 +21,8 @@
 # The ordering of the records in this document determines the ordering of the
 # topic groups and topics on the main page.
 ---
-Name: Getting Started
-Dir: workshops/welcome
-Distros: cloudforms-tower-workshop
-Topics:
-  - Name: Welcome
-    File: index
----
 Name: Ansible Tower Modules
-Dir: ansible_tower/modules
+Dir: ansible_tower_modules
 Distros: ansible-tower-modules
 Topics:
   - Name: Installation
@@ -46,7 +39,7 @@ Topics:
         File: 1-create_run_job_templates
 
 Name: CloudForms Modules
-Dir: cloudforms/modules
+Dir: cloudforms_modules
 Distros: cloudforms-modules
 Topics:
   - Name: Overview
@@ -61,20 +54,23 @@ Topics:
     Topics:
       - Name: Ansible Tower Provider
         File: ansible_tower_provider
----
-Name: CloudForms Tower Workshop
-Dir: workshops/cloudforms_tower
-Distros: cloudforms-tower-workshop
-Topics:
-  - Name: Agenda
-    File: _index
 
 ---
-Name: Additional Resources
-Dir: workshops/resources
+Name: CloudForms Tower Workshop
+Dir: cloudforms_tower_workshop
 Distros: cloudforms-tower-workshop
 Topics:
-  - Name: Links
-    File: links
-  - Name: Decks
-    File: decks
+  - Name: Welcome
+    Dir: welcome
+    Topics:
+      - Name: Getting Started
+        File: index
+  - Name: Agenda
+    File: _index
+  - Name: Additional Resources
+    Dir: resources
+    Topics:
+      - Name: Links
+        File: links
+      - Name: Decks
+        File: decks
