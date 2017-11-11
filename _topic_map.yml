@@ -32,13 +32,6 @@ Topics:
         File: index
   - Name: Agenda
     File: _index
-  - Name: Additional Resources
-    Dir: resources
-    Topics:
-      - Name: Links
-        File: links
-      - Name: Decks
-        File: decks
 
 ---
 Name: Ansible Tower Modules
@@ -77,3 +70,15 @@ Topics:
     Topics:
       - Name: Ansible Tower Provider
         File: ansible_tower_provider
+
+Name: CloudForms Tower Workshop
+Dir: cloudforms_tower_workshop
+Distros: cloudforms-tower-workshop
+Topics:
+  - Name: Additional Resources
+    Dir: resources
+    Topics:
+      - Name: Links
+        File: links
+      - Name: Decks
+        File: decks
