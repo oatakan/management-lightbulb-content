@@ -47,6 +47,7 @@ Distros: ansible-tower-modules,ansible-tower-workshop,cloudforms-tower-workshop
 Topics:
   - Name: 1 - Installation
     Dir: 1-installation
+    Distros: ansible-tower-modules,ansible-tower-workshop
     Topics:
       - Name: Install Tower
         File: 1-install_tower
