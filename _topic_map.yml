@@ -32,9 +32,16 @@ Topics:
         File: index
   - Name: Agenda
     File: _index
+  - Name: Additional Resources
+    Dir: resources
+    Topics:
+      - Name: Links
+        File: links
+      - Name: Decks
+        File: decks
 
 ---
-Name: Ansible Tower Modules
+Name: Ansible Tower Exercises
 Dir: ansible_tower_modules
 Distros: ansible-tower-modules,ansible-tower-workshop
 Topics:
@@ -47,12 +54,13 @@ Topics:
         File: 2-configure_tower
   - Name: 2 - Job Templates
     Dir: 2-job_templates
+    Distros: cloudforms-tower-workshop
     Topics:
       - Name: Create and Run Job Templates
         File: 1-create_run_job_templates
 
 ---
-Name: Exercises
+Name: CloudForms Exercises
 Dir: cloudforms_modules
 Distros: cloudforms-modules,cloudforms-tower-workshop
 Topics:
@@ -70,16 +78,3 @@ Topics:
     Topics:
       - Name: Ansible Tower Provider
         File: ansible_tower_provider
-
----
-Name: CloudForms Tower Workshop
-Dir: cloudforms_tower_workshop
-Distros: cloudforms-tower-workshop
-Topics:
-  - Name: Additional Resources
-    Dir: resources
-    Topics:
-      - Name: Links
-        File: links
-      - Name: Decks
-        File: decks
