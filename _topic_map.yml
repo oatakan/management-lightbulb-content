@@ -71,6 +71,7 @@ Topics:
       - Name: Ansible Tower Provider
         File: ansible_tower_provider
 
+---
 Name: CloudForms Tower Workshop
 Dir: cloudforms_tower_workshop
 Distros: cloudforms-tower-workshop
