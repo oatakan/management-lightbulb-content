@@ -21,44 +21,6 @@
 # The ordering of the records in this document determines the ordering of the
 # topic groups and topics on the main page.
 ---
-Name: Ansible Tower Modules
-Dir: ansible_tower_modules
-Distros: ansible-tower-modules,ansible-tower-workshop
-Topics:
-  - Name: Installation
-    Dir: installation
-    Topics:
-      - Name: Install Tower
-        File: 1-install_tower
-      - Name: Configure Tower
-        File: 2-configure_tower
-  - Name: Job Templates
-    Dir: job_templates
-    Topics:
-      - Name: Create and Run Job Templates
-        File: 1-create_run_job_templates
-
----
-Name: CloudForms Modules
-Dir: cloudforms_modules
-Distros: cloudforms-modules,cloudforms-tower-workshop
-Topics:
-  - Name: Overview
-    Dir: overview
-    Distros: cloudforms-tower-workshop
-    Topics:
-      - Name: Exercise-1.0
-        File: exercise1.0
-      - Name: Exercise-1.1
-        File: exercise1.1
-  - Name: Manage IT Automation
-    Dir: manage_it_automation
-    Distros: cloudforms-tower-workshop
-    Topics:
-      - Name: Ansible Tower Provider
-        File: ansible_tower_provider
-
----
 Name: CloudForms Tower Workshop
 Dir: cloudforms_tower_workshop
 Distros: cloudforms-tower-workshop
@@ -77,3 +39,41 @@ Topics:
         File: links
       - Name: Decks
         File: decks
+
+---
+Name: Ansible Tower Modules
+Dir: ansible_tower_modules
+Distros: ansible-tower-modules,ansible-tower-workshop
+Topics:
+  - Name: Installation
+    Dir: 1-installation
+    Topics:
+      - Name: Install Tower
+        File: 1-install_tower
+      - Name: Configure Tower
+        File: 2-configure_tower
+  - Name: Job Templates
+    Dir: 2-job_templates
+    Topics:
+      - Name: Create and Run Job Templates
+        File: 1-create_run_job_templates
+
+---
+Name: CloudForms Modules
+Dir: cloudforms_modules
+Distros: cloudforms-modules,cloudforms-tower-workshop
+Topics:
+  - Name: Overview
+    Dir: 1-overview
+    Distros: cloudforms-tower-workshop
+    Topics:
+      - Name: Exercise-1.0
+        File: exercise1.0
+      - Name: Exercise-1.1
+        File: exercise1.1
+  - Name: Manage IT Automation
+    Dir: 2-manage_it_automation
+    Distros: cloudforms-tower-workshop
+    Topics:
+      - Name: Ansible Tower Provider
+        File: ansible_tower_provider
