@@ -38,6 +38,7 @@ Topics:
       - Name: Create and Run Job Templates
         File: 1-create_run_job_templates
 
+---
 Name: CloudForms Modules
 Dir: cloudforms_modules
 Distros: cloudforms-modules
@@ -46,9 +47,9 @@ Topics:
     Dir: overview
     Topics:
       - Name: Exercise-1.0
-        File: exercise1.0
+        File: exercise1-0
       - Name: Exercise-1.1
-        File: exercise1.1
+        File: exercise1-1
   - Name: Manage IT Automation
     Dir: manage_it_automation
     Topics:
