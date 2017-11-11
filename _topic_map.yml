@@ -45,25 +45,25 @@ Name: Ansible Tower Modules
 Dir: ansible_tower_modules
 Distros: ansible-tower-modules,ansible-tower-workshop
 Topics:
-  - Name: Installation
+  - Name: 1 - Installation
     Dir: 1-installation
     Topics:
       - Name: Install Tower
         File: 1-install_tower
       - Name: Configure Tower
         File: 2-configure_tower
-  - Name: Job Templates
+  - Name: 2 - Job Templates
     Dir: 2-job_templates
     Topics:
       - Name: Create and Run Job Templates
         File: 1-create_run_job_templates
 
 ---
-Name: CloudForms Modules
+Name: Exercises
 Dir: cloudforms_modules
 Distros: cloudforms-modules,cloudforms-tower-workshop
 Topics:
-  - Name: Overview
+  - Name: 1 - Overview
     Dir: 1-overview
     Distros: cloudforms-tower-workshop
     Topics:
@@ -71,7 +71,7 @@ Topics:
         File: exercise1.0
       - Name: Exercise-1.1
         File: exercise1.1
-  - Name: Manage IT Automation
+  - Name: 2 - Manage IT Automation
     Dir: 2-manage_it_automation
     Distros: cloudforms-tower-workshop
     Topics:
