@@ -39,7 +39,6 @@ Topics:
         File: links
       - Name: Decks
         File: decks
-
 ---
 Name: Ansible Windows Exercises
 Dir: ansible_windows_workshop
@@ -81,6 +80,12 @@ Topics:
         File: exercise2.2
       - Name: Exercise 2.3
         File: exercise2.3
+  - Name: 3 - More with Playbooks
+    Dir: 3-more-with-windows-playbooks
+    Distros: ansible-windows-workshop
+    Topics:
+      - Name: Exercise 3.0
+        File: exercise3.0
   - Name: Wrap Up
     Dir: 0-setup
     Distros: ansible-windows-workshop
@@ -106,7 +111,6 @@ Topics:
     Topics:
       - Name: Create and Run Job Templates
         File: 1-create_run_job_templates
-
 ---
 Name: CloudForms Exercises
 Dir: cloudforms_modules
