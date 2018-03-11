@@ -42,3 +42,14 @@ ansible-tower-workshop:
     master:
       name: latest
       dir: latest
+
+ansible-windows-workshop:
+  name: Ansible Windows Workshop
+  author: Documentation Project <oatakan@redhat.com>
+  site: lightbulb
+  site_name: Workshops
+  site_url: http://rhdemo.io/
+  branches:
+    master:
+      name: latest
+      dir: latest

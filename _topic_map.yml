@@ -41,6 +41,53 @@ Topics:
         File: decks
 
 ---
+Name: Ansible Windows Exercises
+Dir: ansible_windows_workshop
+Distros: ansible-windows-workshop
+Topics:
+  - Name: Welcome
+    Dir: 0-setup
+    Distros: ansible-windows-workshop
+    Topics:
+      - Name: Agenda
+        File: index.adoc
+      - Name: Workshop Lab Setup
+        File: setup
+  - Name: 1 - Essentials
+    Dir: 1-essentials
+    Distros: ansible-windows-workshop
+    Topics:
+      - Name: Exercise 1.0
+        File: exercise1.0
+      - Name: Exercise 1.1
+        File: exercise1.1
+      - Name: Exercise 1.2
+        File: exercise1.2
+      - Name: Exercise 1.3
+        File: exercise1.3
+      - Name: Exercise 1.4
+        File: exercise1.4
+      - Name: Exercise 1.5
+        File: exercise1.5
+  - Name: 2 - Tower
+    Dir: 2-tower
+    Distros: ansible-windows-workshop
+    Topics:
+      - Name: Exercise 2.0
+        File: exercise2.0
+      - Name: Exercise 2.1
+        File: exercise2.1
+      - Name: Exercise 2.2
+        File: exercise2.2
+      - Name: Exercise 2.3
+        File: exercise2.3
+  - Name: Wrap Up
+    Dir: 0-setup
+    Distros: ansible-windows-workshop
+    Topics:
+      - Name: Wrap-up
+        File: wrapup.adoc
+---
 Name: Ansible Tower Exercises
 Dir: ansible_tower_modules
 Distros: ansible-tower-modules,ansible-tower-workshop,cloudforms-tower-workshop
