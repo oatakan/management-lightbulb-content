@@ -48,7 +48,7 @@ In the main window, press Ctrl + Shift + P to bring up the action search window.
 
 image::1.1-vscode-gitclone.png[title="Git Clone",width=1000]
 
-At the top, enter https://gitlab.rhdemo.io/student#/student#-playbooks, where # is your student number.
+At the top, enter *https://gitlab.rhdemo.io/student#/student#-playbooks*, *where # is your student number*.
 
 image::1.1-vscode-gitclone-url.png[title="Git Clone URL",width=1000]
 

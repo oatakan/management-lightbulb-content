@@ -17,7 +17,7 @@ simply need to do one or two things quickly and often, to many remote nodes.
 
 === Step 0:
 
-SSH into your Tower host and define your inventory.  Inventories are crucial to Ansible as they define remote machines on which you wish to run
+SSH into your *control* host and define your inventory.  Inventories are crucial to Ansible as they define remote machines on which you wish to run
 commands or your playbook(s).  For this workshop we have already created a base inventory file to save you the effort.  Use `cat ~/lightbulb/lessons/lab_inventory/student#-instances.txt` to view the file.  Notice there is a section of vars to be assigned to particular groups.  Then there are individual hosts within groups including authentication details.
 
 ====
@@ -28,7 +28,7 @@ At this point we are just using basic authentication to a local Administrator.  
 
 === Step 1:
 
-Let's start with something really basic - pinging a host.  The `win_ping` module makes sure our windows hosts are responsive.  This is not a traditional 'ping', but actually verifying connectivity to the host.
+Let's start with something really basic - pinging a host.  The *win_ping* module makes sure our windows hosts are responsive.  This is not a traditional 'ping', but actually verifying connectivity to the host.
 
 Ansible uses WinRM to interact with Windows hosts.  This has already been setup in our lab.  However, in other environments a script to enable this is provided here: (https://github.com/ansible/ansible/blob/devel/examples/scripts/ConfigureRemotingForAnsible.ps1)
 
